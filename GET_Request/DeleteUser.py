@@ -4,7 +4,7 @@ import requests
 # API URL
 url = "https://reqres.in/api/users/2"
 
-response = requests.delete((url))
+response = requests.delete(url)
 
 # Fetch Code
 print(response.status_code)
